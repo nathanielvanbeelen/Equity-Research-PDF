@@ -4,7 +4,7 @@ from openai import OpenAI
 
 def stock_analysis(TICKER):
     # Initialize the OpenAI client with your API key
-    client = OpenAI(api_key='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')
+    client = OpenAI(api_key='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')
 
     TICKER = TICKER.upper()
 
